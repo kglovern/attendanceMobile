@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Student Attendance</string>
+    <string name="title_home">Home</string>
+    <string name="title_attendance">Check In</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_activity">Recent Activity</string>
+
+    <string name="btn_health">Check API Health</string>
+    <string name="btn_checkin">Check Student In</string>
+    <string name="btn_reset">Reset</string>
+    <string name="text_blank"> </string>
+    <string name="text_api_available">API successfully pinged!</string>
+    <string name="text_api_unavailable">API unable to be reached!</string>
+    <string name="text_student_info">Student Information:</string>
+    <string name="text_full_name"><b>Name:</b> %1$s %2$s</string>
+    <string name="text_student_number"><b>ID:</b> %1$s</string>
+</resources>

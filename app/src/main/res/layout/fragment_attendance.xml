@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".AttendanceFragment" android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_attendance"/>
+    <SurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="300dp" android:id="@+id/barcodeCamera"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/barcodeValue" android:textAlignment="center"/>
+    <Button
+            android:text="@string/btn_checkin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnCheckIn" android:clickable="true"
+            android:enabled="false"/>
+    <Button
+            android:text="@string/btn_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnReset"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+    <TextView
+            android:text="@string/text_student_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textStudentInfoHeader" android:textStyle="bold"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textStudentName" android:padding="3dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textStudentNumber" android:padding="3dp"/>
+
+
+</LinearLayout>
